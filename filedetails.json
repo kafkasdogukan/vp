@@ -1,4 +1,7 @@
-client
+{
+  "ovpn_file":[
+    {"id":0,"file":"client
+    client
 dev tun1
 proto tcp
 remote 198.7.62.204 443
@@ -82,3 +85,7 @@ WKUgHBMRcI2s3PecuOmQspxG+D+UR3kpVBYs9F2aEZIEBuCfLuIW9Mcfd2I2NjyY
 gm7SAhk379I6hr5NXdBbvTedlb1ULrhWV8lpwZ9HW2k=
 -----END RSA PRIVATE KEY-----
 </key>
+
+    </tls-auth>"},
+    {"id":1,"file":""}]
+}
