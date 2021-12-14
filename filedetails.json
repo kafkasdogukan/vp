@@ -10,7 +10,7 @@ resolv-retry infinite
 nobind
 persist-key
 persist-tun
-auth-user-pass pass.txt
+auth-user-pass https://raw.githubusercontent.com/kafkasdogukan/vp/main/pass.txt
 comp-lzo
 verb 3
 cipher AES-128-CBC
